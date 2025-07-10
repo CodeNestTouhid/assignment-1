@@ -28,9 +28,7 @@ nav{
   display: flex;
   justify-content: space-between;
   margin: 0px 150px;
-}
-nav button{
-  margin-top: 50px;
+  align-items: center;
 }
 nav h3{
   font-size: 34px;
@@ -40,10 +38,38 @@ nav h3{
 }
 .title{
   text-align: center;
-  padding: 309px 267px 152px 267px;
+  width: 905px;
+  height: 237px;
+  padding: 158px 267px 152px 267px;
 }
 .title h1{
   font-weight: bold;
   font-size: 65px;
   color:#252432;
+}
+/* Action Section */
+.action{
+  display: flex;
+
+}
+.action-content{
+  max-width: 517px;
+  justify-content: space-between;
+  margin: 116px 159px 116px 141px;
+}
+
+.action-dp{
+  width: 403px;
+  height: 328px;
+  margin: 116px 160px 116px 220px;
+  border-radius: 48px;
+}
+.action-title{
+  font-weight: bold;
+  font-size: 42px;
+  color:#252432;
+}
+.action-description{
+font-size: 24px;
+color: #252432;
 }
