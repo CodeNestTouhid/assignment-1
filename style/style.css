@@ -271,4 +271,51 @@ color: #252432;
 
 
 
-/* CHALLENGES */
+/* CHALLENGES */ 
+
+.edit img{
+ height: 40;
+ width: 40;
+ border-radius: 50px;
+}
+
+
+.edit{
+  display: flex;
+}
+
+
+.user-review{
+  max-width: 1140px;
+  margin:0 auto;
+  text-align: center;
+}
+.card-container{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.review-card{
+  text-align:left;
+  background-color: #F2EDED;
+  padding-left: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+
+
+
+
+
+.chsection-title{
+  font-weight: bold;
+  font-size: 43px;
+  color:#252432;
+}
+.info{
+  color:#757575;
+}
+.uinfo{
+ color:#B3B3B3;
+}
