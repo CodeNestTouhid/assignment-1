@@ -98,7 +98,7 @@ nav h3{
 }
 .action-description{
 font-size: 24px;
-color: #252432;
+color: #25243250;
 }
 
 
@@ -183,7 +183,6 @@ color: #252432;
 /* Let’s Get In Touch Section */
 .lgt{
  max-width:1140px;
-  max-height: 632px;
   margin:99px 133px 20px 167px;
   background-color: #ffffff50;
   
@@ -191,35 +190,44 @@ color: #252432;
 .lgt-main{
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
-.lgt-title{
+/* .lgt-title{
+  border: 1px solid black;
+  padding: 200px 115px 200px 0px;
+} */
+.lgt-text{
    width:528px;
   height: 232px;
-  padding: 200px 115px 200px 0px;
-}
-.lgt-text{
    font-weight: bold;
   font-size: 97px;
   color: #000000;
+  margin: 200px 115px 200px 0px;
 }
 
 .form{
   display: flex;
   flex-direction: column;
-  gap: 19px;
+  gap: 10px;
   width: 497px;
   height: 490px;
+  margin: 100px 0px 71px 115px;
 }
 .form label{
   font-size: 18px;
   font-weight: 500px;
   display: block;
+  color: #000000;
  
 }
 .form placeholder{
   font-size: 20px;
   color: #00000050;
+}
+.form input,.form textarea{
+  border-radius: 10px;
+  border-color: #D6DDED;
+  width: 497px;
+  height: 70px;
 }
 
 
@@ -301,6 +309,7 @@ color: #252432;
   padding-left: 24px;
   padding-top: 24px;
   padding-bottom: 24px;
+  border-radius: 14px;
 }
 
 
