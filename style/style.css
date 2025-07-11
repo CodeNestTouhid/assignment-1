@@ -54,6 +54,26 @@ nav h3{
   font-size: 65px;
   color:#252432;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Action Section */
 .action{
   display: flex;
@@ -80,6 +100,28 @@ nav h3{
 font-size: 24px;
 color: #252432;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*  Productive Users Section */
 
   .user-section{
@@ -121,4 +163,85 @@ color: #252432;
   padding:0px 0px 50px 0px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Let’s Get In Touch Section */
+.lgt{
+ max-width:1140px;
+  max-height: 632px;
+  margin:99px 133px 20px 167px;
+  background-color: #ffffff50;
+  
+}
+.lgt-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lgt-title{
+   width:528px;
+  height: 232px;
+}
+.lgt-text{
+   font-weight: bold;
+  font-size: 97px;
+  color: #000000;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  width: 497px;
+  height: 490px;
+}
+.form label{
+  font-size: 18px;
+  font-weight: 500px;
+  display: block;
+ 
+}
+.form placeholder{
+  font-size: 20px;
+  color: #00000050;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Section */
+
+
+
+
+
+
+
+
+
+
